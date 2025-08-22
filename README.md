@@ -12,3 +12,6 @@ Strumento **zero‑install** (solo HTML/JS/CSS) per generare file **INI** ottimi
 1. Apri `index.html` nel browser desktop.
 2. Vai su **Display & Refresh** e premi **Rileva Hz**.
 3. Aggiungi i file generati all’**Area Download** e salvali.
+
+**Licenza & attribuzione**  
+I file e il sorgente sono pubblici. Se modifichi, redistribuisci o carichi il progetto altrove, **cita “DarkPlayer84” come autore originale** e mantieni questa nota di attribuzione.
