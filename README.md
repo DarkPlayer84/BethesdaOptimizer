@@ -16,16 +16,16 @@ Strumento **zero‑install** (solo HTML/JS/CSS) per generare file **INI** ottimi
 **Licenza & attribuzione**  
 I file e il sorgente sono pubblici. Se modifichi, redistribuisci o carichi il progetto altrove, **cita “DarkPlayer84” come autore originale** e mantieni questa nota di attribuzione.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# BethOptimizer Helper Kit (v1)
+# BethOptimizer Helper Kit (v1.1) Aggiornamento dei files ad .NET 8 e 9
 
 Questo kit aggiunge funzioni **native** per far funzionare l'app al 100%:
 - Lettura **Hz monitor** e **nome GPU** via DLL C++ (WinAPI).
-- Server HTTP locale (C# .NET 6) per esporre API a cui l'app (HTML) può fare `fetch`.
+- Server HTTP locale (C# .NET 8/9) per esporre API a cui l'app (HTML) può fare `fetch`.
 - Scrittura diretta dei file INI nelle cartelle **My Games** con backup `.bak` e newline **CRLF**.
 
 ## Progetti (Visual Studio 2022)
 - **BethOptimizer.Native** — C++ DLL (`BethOptimizer.Native.dll`)
-- **BethOptimizer.Helper** — .NET 6 console che P/Invokes la DLL e espone API su `http://127.0.0.1:8765/`
+- **BethOptimizer.Helper** — .NET 8/9 console che P/Invokes la DLL e espone API su `http://127.0.0.1:8765/`
 
 ## Build
 1. Apri `BethOptimizer.sln` in Visual Studio 2022.
