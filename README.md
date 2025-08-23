@@ -52,3 +52,6 @@ Importa `web-integration/helper-integration.js` e usa `boHelper.available()` per
 - Il browser non può caricare DLL: serve l'helper.
 - La lettura Hz via WinAPI è di tipo **corrente** (impostazione attiva). Per Hz “reali” su alcuni pannelli può servire DXGI avanzato.
 - Le API HTTP locali sono **non autenticate**: non esporle sulla rete, sono pensate solo per `127.0.0.1`.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Cartella Zip OLD
+- Da ora in avanti le versioni vecchie, scartate o semplicemente sperimentali vecchie saranno dentro un file zip chiamato BethOld.zip, in modo che le versioni nuove siano ben chiaramente viste come nuove.
